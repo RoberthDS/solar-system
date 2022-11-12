@@ -9,3 +9,46 @@ body {
 .missionCard {
   color: white;
 }
+
+#card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card-unit{
+  display: flex;
+  border: 2px solid rgba(0, 0, 255, 0);
+  flex-direction: column;
+  width: 20%;
+  margin-bottom: 4%;
+  text-align: center;
+  background: rgba(255, 254, 254, 0.1);
+}
+
+
+.planets {
+  display: flex;
+  justify-content: center;
+}
+
+.planet {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.planet img {
+  width: 100%;
+  max-width: 150px;
+}
+
+.planet p {
+  color: gold;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    color: white;
+  }

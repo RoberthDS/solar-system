@@ -9,6 +9,7 @@ class Missions extends React.Component {
       <>
         <div data-testid="missions" />
         <Title headline="Missões" />
+        <div id='card'>
         {
           missions.map((missao) => (
             <MissionCard
@@ -20,6 +21,7 @@ class Missions extends React.Component {
             />
           ))
         }
+        </div>
       </>
     );
   }
