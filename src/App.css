@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Playfair+Display&display=swap');
+
 .App {
   text-align: center;
 }
@@ -26,6 +28,11 @@ body {
   background: rgba(255, 254, 254, 0.1);
 }
 
+.card-unit:hover {
+  width: 30%;
+  background-color: rgba(255, 217, 0, 0.219);
+}
+
 
 .planets {
   display: flex;
@@ -39,8 +46,12 @@ body {
 }
 
 .planet img {
-  width: 100%;
+  width: 80%;
   max-width: 150px;
+}
+
+.planet img:hover {
+  width: 100%;
 }
 
 .planet p {
@@ -51,4 +62,12 @@ footer {
     display: flex;
     justify-content: center;
     color: white;
-  }
+}
+
+.h-solar {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+}
